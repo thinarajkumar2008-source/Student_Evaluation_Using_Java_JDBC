@@ -1,0 +1,22 @@
+﻿# Compiled Java class files
+*.class
+
+# SQLite Database files
+*.db
+data/*.db
+
+# Log files
+*.log
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.iml
+*.project
+*.classpath
+.settings/
+
+# Build and temp directories
+bin/
+build/
+target/
