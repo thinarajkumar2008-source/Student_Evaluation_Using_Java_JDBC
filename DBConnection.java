@@ -108,4 +108,8 @@ public class DBConnection {
                     "FOREIGN KEY (enrollment_id) REFERENCES enrollments(enrollment_id) ON DELETE CASCADE);");
         } catch (SQLException ignored) {}
     }
+
+    public static String getDbType() {
+        return "mysql";
+    }
 }
